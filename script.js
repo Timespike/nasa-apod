@@ -50,6 +50,12 @@ function updateDOM() {
         // Copyright
         const copyright = document.createElement('span');
         copyright.textContent = ` ${result.copyright}`;
+        // Append
+        footer.append(date, copyright);
+        cardBody.append(cardTitle, cardText, saveText, footer);
+        link.appendChild(image);
+        card.append(link, cardBody);
+        console.log(card);
     });
 }
 
