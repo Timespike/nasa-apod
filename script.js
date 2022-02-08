@@ -13,7 +13,7 @@ let resultsArray = [];
 let favorites = {};
 
 function showContent(page) {
-    window.scrollTo({ top: 0, behavion: 'instant'});
+    window.scrollTo({ top: 0, behavior: 'instant'});
     if (page === 'results') {
         resultsNav.classList.remove('hidden');
         favoritesNav.classList.add('hidden');
